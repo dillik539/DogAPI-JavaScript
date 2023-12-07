@@ -2,14 +2,12 @@
 
 const dogAPI = 'https://dog.ceo/api/breeds/image/random'
 const dogDiv = document.getElementById('dogImage')
-//dogDiv.innerText = 'Hello Saanvi and Shivani, How are you? I am going to Market.'
 
 const getButton = document.getElementById('dogButton')
-
 const getDogPicture = () => {fetch(dogAPI)
 .then(response => response.json())
 .then(json => {
-    dogDiv.innerHTML = `<img src = '${json.message}' height = 350 width = 400/>`
+    dogDiv.innerHTML = `<img src = '${json.message}' style = "height:600px; width:800px; border:none; border-radius:1rem;"/>`
 })}
 
 getButton.onclick = () => getDogPicture()

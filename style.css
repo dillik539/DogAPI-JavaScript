@@ -1,0 +1,19 @@
+.container{
+    position: absolute;
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.image{
+    padding-top: 1rem;
+}
+#dogButton{
+    height: 3rem;
+    width: 7rem;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: rgb(103, 103, 196);
+    color: rgb(222, 162, 162);
+}
